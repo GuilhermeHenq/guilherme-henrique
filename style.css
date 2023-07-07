@@ -28,13 +28,27 @@ header {
     }
   }
 
+.arrumar{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+
+}
+
+
+.titulo2{
+  margin-top: 3%;
+}
+
 .animation {
+    margin-bottom: 10%;
     align-items: center;
     text-align: center;
     font: bold 200% Consolas, Monaco, monospace;
     border-right: .1em solid #fff;
     width: 36ch;
-    margin:10%;
+    margin:0%;
     white-space: nowrap;
     overflow: hidden;
     -webkit-animation: typing 8s steps(36, end),
